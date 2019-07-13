@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ffd28d0a5f1855f59a5c88efb80552cb",
+    "revision": "b5353adbc447d0d0ae7a8b0bd124431b",
     "url": "/index.html"
   },
   {
-    "revision": "8c1481f0419f558a61b3",
-    "url": "/static/css/main.52e8b164.chunk.css"
+    "revision": "bc9372a078343c32141a",
+    "url": "/static/css/main.378d7a41.chunk.css"
   },
   {
     "revision": "6cbf32e6e7458f998581",
     "url": "/static/js/2.5646c6a5.chunk.js"
   },
   {
-    "revision": "8c1481f0419f558a61b3",
-    "url": "/static/js/main.6f39b8e8.chunk.js"
+    "revision": "bc9372a078343c32141a",
+    "url": "/static/js/main.e0712dd3.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c14197607771ffa7f65c893b0407d2fc",
     "url": "/static/media/Optimized-emile-perron-pcBackground.c1419760.jpg"
+  },
+  {
+    "revision": "e619652d4d635acfacbc3935238c746f",
+    "url": "/static/media/bears-coding.e619652d.jpg"
   },
   {
     "revision": "fd103945c6aec843e9b4a04534f6112a",
