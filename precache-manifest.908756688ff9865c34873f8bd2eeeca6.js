@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b5353adbc447d0d0ae7a8b0bd124431b",
+    "revision": "973f656b79cc446ae47cecc496e333a8",
     "url": "/index.html"
   },
   {
-    "revision": "bc9372a078343c32141a",
-    "url": "/static/css/main.378d7a41.chunk.css"
+    "revision": "80190a6707259753e189",
+    "url": "/static/css/main.d376bd35.chunk.css"
   },
   {
     "revision": "6cbf32e6e7458f998581",
     "url": "/static/js/2.5646c6a5.chunk.js"
   },
   {
-    "revision": "bc9372a078343c32141a",
-    "url": "/static/js/main.e0712dd3.chunk.js"
+    "revision": "80190a6707259753e189",
+    "url": "/static/js/main.99cc0ec3.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/expressJsLogo.fd103945.jpg"
   },
   {
-    "revision": "3f25b7cc49bb4e9577fe372fde253130",
-    "url": "/static/media/fatimasImg.3f25b7cc.png"
+    "revision": "f330ca636bf6ab6e4049dbc3a33e0ccb",
+    "url": "/static/media/fatimasImg.f330ca63.png"
   },
   {
     "revision": "454a400ca987d4271e54045982ea3876",
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/phpLogo.d6254a52.png"
   },
   {
-    "revision": "3a040081c26eaf8e6e807db669bc917e",
-    "url": "/static/media/portfolioImg.3a040081.png"
+    "revision": "7d97b3d129457e45f0e07b987ac0a9e4",
+    "url": "/static/media/portfolioImg.7d97b3d1.png"
   },
   {
     "revision": "47ce6e77f039020ee2e76a10c1e988e9",
@@ -76,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/stickserImg.7c4ff28b.png"
   },
   {
-    "revision": "59f5f1216013fb89cfe6406a5482a35e",
-    "url": "/static/media/tiseguridadImg.59f5f121.png"
+    "revision": "9c4bf0d80aeaa8aef052b1115b15f0f9",
+    "url": "/static/media/tiseguridadImg.9c4bf0d8.png"
   },
   {
     "revision": "598d8e6da50ecfb4b316cd7503d79314",
