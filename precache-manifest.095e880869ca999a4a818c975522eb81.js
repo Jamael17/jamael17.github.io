@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "973f656b79cc446ae47cecc496e333a8",
+    "revision": "50f3ccabd557291c39a884d95dd5b8ec",
     "url": "/index.html"
   },
   {
-    "revision": "80190a6707259753e189",
-    "url": "/static/css/main.d376bd35.chunk.css"
+    "revision": "13eae3906dc7fab546c0",
+    "url": "/static/css/main.5e5cfb45.chunk.css"
   },
   {
     "revision": "6cbf32e6e7458f998581",
     "url": "/static/js/2.5646c6a5.chunk.js"
   },
   {
-    "revision": "80190a6707259753e189",
+    "revision": "13eae3906dc7fab546c0",
     "url": "/static/js/main.99cc0ec3.chunk.js"
   },
   {
@@ -28,10 +28,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Optimized-emile-perron-pcBackground.c1419760.jpg"
   },
   {
-    "revision": "e619652d4d635acfacbc3935238c746f",
-    "url": "/static/media/bears-coding.e619652d.jpg"
-  },
-  {
     "revision": "fd103945c6aec843e9b4a04534f6112a",
     "url": "/static/media/expressJsLogo.fd103945.jpg"
   },
@@ -42,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "454a400ca987d4271e54045982ea3876",
     "url": "/static/media/htmlLogo.454a400c.png"
+  },
+  {
+    "revision": "05960e5b79c0ffd0618ee08b042099f4",
+    "url": "/static/media/myLogoThumb.05960e5b.png"
   },
   {
     "revision": "5b47d4f8d197911857e8e77cb4dd1569",
