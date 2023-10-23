@@ -80,9 +80,6 @@
         margin-bottom: 2rem;
       }
     }
-    img{
-      // transform: translateX(-20px);
-    }
   }
   h1 {
     font-size: 3rem;

@@ -132,6 +132,9 @@
 <style lang="scss" scoped>
   .navigator {
     width: 10vw;
+    @media (max-width:500px) {
+      width: 100%;
+    }
     .navLink {
       all: unset;
       width: 35px;
