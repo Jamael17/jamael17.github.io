@@ -220,10 +220,16 @@
       span{
         display: block;
       }
+      
+    .navLinkSelected{
+      outline: 1px solid #2b2b2b60;
+      border-radius: 20px;
+    }
       color: #2b2b2b;
       justify-content: center;
       align-items: center;
       flex-direction: column;
+      
     }
     &:hover{
       @media (max-width:500px) {

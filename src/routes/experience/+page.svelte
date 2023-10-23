@@ -44,8 +44,8 @@
   });
 </script>
 
-<div class="projectsContainer grid grid-cols-2 dark:text-white font-sans">
-  <div class="p-10">
+<div class="projectsContainer md:grid grid-cols-2 dark:text-white font-sans">
+  <div class="md:p-10">
     <article>
       <h1 class="text-5xl mb-4">
         Colaborator for a Software Development Agency
@@ -64,6 +64,7 @@
           PySide2 and add all the required features, which included: Smooth
           movement, keyboard and mouse interaction and fast update
         </p>
+        <img class="md:hidden mt-4" src="/src/assets/illustrations/svg/undraw_all_the_data_re_hh4w.svg" alt="data">
       </div>
       <div class="experience">
         <h2 class="text-2xl p-1 mb-4">Team lead and recruitment advisor</h2>
@@ -73,6 +74,7 @@
           members to integrate themselve with the team and teaching the ways of
           good software design.
         </p>
+        <img class="md:hidden mt-4" src="/src/assets/illustrations/svg/undraw_engineering_team_a7n2.svg" alt="team">
       </div>
       <div class="experience">
         <h2 class="text-2xl p-1 mb-4">
@@ -86,9 +88,12 @@
           Email managing with AWS SES and different types of implementations
           with AWS EC2
         </p>
+        <div>
+          <!-- <SystemDesignAnim /> -->
+        </div>
       </div>
     </article>
-    <article class="mb-4">
+    <article class="mb-10 mt-10">
       <h1 class="text-5xl mb-4">Barates</h1>
       <small class="font-railway text-xl"
         >A website for hotel bookings and room reservations. Sole developer
@@ -104,6 +109,7 @@
           and made improvement to the platform and introduced better design
           patterns for code quality and faster delivery.
         </p>
+        <img class="md:hidden mt-4" src="/src/assets/illustrations/svg/undraw_code_thinking_re_gka2.svg" alt="code">
       </div>
       <div class="experience">
         <h2 class="text-2xl p-1 mb-4">Creation of Admin Console</h2>
@@ -114,10 +120,11 @@
           options where users were able to create, modify and review their plans
           and services
         </p>
+        <img class="md:hidden mt-4" src="/src/assets/illustrations/svg/undraw_file_searching_re_3evy.svg" alt="code">
       </div>
     </article>
   </div>
-  <div class="illustrationContainer">
+  <div class="sm:hidden illustrationContainer">
     {#if currentImgIndex == 2}
       <SystemDesignAnim />
     {:else if currentImgIndex == 1}
@@ -125,7 +132,7 @@
     {:else if currentImgIndex == null}
       <div></div>
     {:else}
-      <div class="fixed illustration">
+      <div class="md:fixed illustration">
         {#if currentImgIndex || currentImgIndex==0}
         <img src={images[currentImgIndex]} alt="data" />
         {:else}
@@ -168,7 +175,7 @@
     }
   }
   article {
-    height: 100vh;
+    // height: 100vh;
     position: relative;
     .experience {
       position: relative;

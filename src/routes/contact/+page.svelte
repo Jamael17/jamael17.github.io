@@ -60,8 +60,9 @@
       <Label for="contactComment" class="block mb-2">Comment</Label>
       <Textarea name="contactComment" id="contactComment" cols="30" rows="10" />
     </div>
-
-    <Button id="wa">Send</Button>
+    <div class="mb-12">
+      <Button id="wa">Send</Button>
+    </div>
   </form>
 </div>
 
