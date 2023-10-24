@@ -9,7 +9,7 @@
 
 <div class="heroContainer flex justify-center items-center h-full w-full">
   <div class="background flex justify-center items-center">
-    <img src="/src/assets/illustrations/svg/blobanimation.svg" alt="">
+    <img src="/illustrations/svg/blobanimation.svg" alt="">
   </div>
   <div class="titleContainer dark:text-white text-center flex flex-col justify-center items-center">
     <h1 class="text-8xl md:text-9xl">Juan Curvelo</h1>

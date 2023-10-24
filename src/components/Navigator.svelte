@@ -22,21 +22,6 @@
     goto(url);
   }
 
-  function moveNav() {
-    anime({
-      targets: ".navigator",
-      left: "50%",
-      begin: () => {
-        let nav = document.querySelector("#navigator");
-        if (!nav) {
-          return;
-        }
-        nav.className = "navigator flex flex-col";
-      },
-      duration: 3000,
-    });
-  }
-
   onMount(() => {
     const handleLinkClick = (url: string) => {
       return (event: Event) => {

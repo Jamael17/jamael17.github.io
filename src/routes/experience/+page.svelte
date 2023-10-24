@@ -5,14 +5,14 @@
   import { P } from "flowbite-svelte";
   import TeamLeadingAnim from "../../components/TeamLeadingAnim.svelte";
   const images = [
-    // "/src/assets/illustrations/png/MRBGYVP34BLTPO7FAVIXSUPKJA.jpg",
-    // "/src/assets/illustrations/png/1_84wQvgcY-qeS92WYYvJBTA.jpg",
-    // "/src/assets/illustrations/png/MRBGYVP34BLTPO7FAVIXSUPKJA-removebg-preview.png",
-    "/src/assets/illustrations/svg/undraw_all_the_data_re_hh4w.svg",
+    // "//illustrations/png/MRBGYVP34BLTPO7FAVIXSUPKJA.jpg",
+    // "//illustrations/png/1_84wQvgcY-qeS92WYYvJBTA.jpg",
+    // "//illustrations/png/MRBGYVP34BLTPO7FAVIXSUPKJA-removebg-preview.png",
+    "/illustrations/svg/undraw_all_the_data_re_hh4w.svg",
     "",
     "",
-    "/src/assets/illustrations/svg/undraw_code_thinking_re_gka2.svg",
-    "src/assets/illustrations/svg/undraw_file_searching_re_3evy.svg",
+    "/illustrations/svg/undraw_code_thinking_re_gka2.svg",
+    "/illustrations/svg/undraw_file_searching_re_3evy.svg",
   ];
   let currentImgIndex = NaN;
   let pruebaLinea = 0;
@@ -64,7 +64,7 @@
           PySide2 and add all the required features, which included: Smooth
           movement, keyboard and mouse interaction and fast update
         </p>
-        <img class="md:hidden mt-4" src="/src/assets/illustrations/svg/undraw_all_the_data_re_hh4w.svg" alt="data">
+        <img class="md:hidden mt-4" src="/illustrations/svg/undraw_all_the_data_re_hh4w.svg" alt="data">
       </div>
       <div class="experience">
         <h2 class="text-2xl p-1 mb-4">Team lead and recruitment advisor</h2>
@@ -74,7 +74,7 @@
           members to integrate themselve with the team and teaching the ways of
           good software design.
         </p>
-        <img class="md:hidden mt-4" src="/src/assets/illustrations/svg/undraw_engineering_team_a7n2.svg" alt="team">
+        <img class="md:hidden mt-4" src="/illustrations/svg/undraw_engineering_team_a7n2.svg" alt="team">
       </div>
       <div class="experience">
         <h2 class="text-2xl p-1 mb-4">
@@ -109,7 +109,7 @@
           and made improvement to the platform and introduced better design
           patterns for code quality and faster delivery.
         </p>
-        <img class="md:hidden mt-4" src="/src/assets/illustrations/svg/undraw_code_thinking_re_gka2.svg" alt="code">
+        <img class="md:hidden mt-4" src="/illustrations/svg/undraw_code_thinking_re_gka2.svg" alt="code">
       </div>
       <div class="experience">
         <h2 class="text-2xl p-1 mb-4">Creation of Admin Console</h2>
@@ -120,7 +120,7 @@
           options where users were able to create, modify and review their plans
           and services
         </p>
-        <img class="md:hidden mt-4" src="/src/assets/illustrations/svg/undraw_file_searching_re_3evy.svg" alt="code">
+        <img class="md:hidden mt-4" src="/illustrations/svg/undraw_file_searching_re_3evy.svg" alt="code">
       </div>
     </article>
   </div>

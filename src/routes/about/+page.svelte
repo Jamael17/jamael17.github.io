@@ -12,7 +12,7 @@ https://tailwindcss.com/https://laravel.com//favicons/favicon-32x32.png?v=3
     {
       title: "Fronted",
       imgPath:
-        "/src/assets/illustrations/svg/undraw_laravel_and_vue_-59-tp.svg",
+        "/illustrations/svg/undraw_laravel_and_vue_-59-tp.svg",
       tools: [
         {
           name:"Vue.js",
@@ -46,7 +46,7 @@ https://tailwindcss.com/https://laravel.com//favicons/favicon-32x32.png?v=3
     },
     {
       title: "Backed",
-      imgPath: "/src/assets/illustrations/svg/undraw_server_cluster_jwwq.svg",
+      imgPath: "/illustrations/svg/undraw_server_cluster_jwwq.svg",
       tools: [
         {
           name:"Express",
@@ -69,7 +69,7 @@ https://tailwindcss.com/https://laravel.com//favicons/favicon-32x32.png?v=3
     {
       title: "Infrastructure & DevOps",
       imgPath:
-        "/src/assets/illustrations/svg/undraw_container_ship_re_alm4.svg",
+        "/illustrations/svg/undraw_container_ship_re_alm4.svg",
       tools: [
         {
           name:"Docker",
@@ -91,7 +91,7 @@ https://tailwindcss.com/https://laravel.com//favicons/favicon-32x32.png?v=3
     },
     {
       title: "Testing",
-      imgPath: "/src/assets/illustrations/svg/undraw_science_re_mnnr.svg",
+      imgPath: "/illustrations/svg/undraw_science_re_mnnr.svg",
       tools: [
         {
           name:"Jest",
@@ -109,7 +109,7 @@ https://tailwindcss.com/https://laravel.com//favicons/favicon-32x32.png?v=3
     },
     {
       title: "Python",
-      imgPath: "/src/assets/illustrations/svg/undraw_data_re_80ws.svg",
+      imgPath: "/illustrations/svg/undraw_data_re_80ws.svg",
       tools: [
         {
           name: "Matplotlib",
@@ -139,7 +139,7 @@ https://tailwindcss.com/https://laravel.com//favicons/favicon-32x32.png?v=3
     },
     {
       title: "Javascript Specific",
-      imgPath: "/src/assets/illustrations/svg/undraw_online_ad_re_ol62.svg",
+      imgPath: "/illustrations/svg/undraw_online_ad_re_ol62.svg",
       tools: [
       {
         name:"Node.js",
@@ -179,7 +179,7 @@ https://tailwindcss.com/https://laravel.com//favicons/favicon-32x32.png?v=3
           those things are the way they are.
         </p>
         <div class="flex justify-center">
-          <img src="src/assets/illustrations/svg/undraw_trendy_interface_re_xsou.svg" alt="">
+          <img src="/illustrations/svg/undraw_trendy_interface_re_xsou.svg" alt="aboutMeIllustration">
         </div>
       </div>
     </article>

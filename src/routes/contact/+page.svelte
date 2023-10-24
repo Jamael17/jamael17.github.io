@@ -3,27 +3,27 @@
   import anime from "animejs";
   import { onMount } from "svelte";
   let sendButton:HTMLButtonElement;
-  const envelopAnim = anime({
-      targets:'.envelope',
-      translateX:[
-        {value:-10,easing:'easeInOutCubic'},
-        {value:10,easing:'easeInOutCubic'},
-      ],
-      // translateY:[
-      //   {value:0,easing:'easeInOutCubic'},
-      //   {value:-10,easing:'easeInOutCubic'},
-      //   {value:0,easing:'easeInOutCubic'},
-      // ],
-      rotate:[
-        {value:-10,easing:'easeInOutCubic'},
-        {value:10,easing:'easeInOutCubic'},
-      ],
-      duration:2000,
-      direction:'alternate',
-      loop:true,
-      // endDelay:200
-    })
   onMount(()=>{
+    const envelopAnim = anime({
+        targets:'.envelope',
+        translateX:[
+          {value:-10,easing:'easeInOutCubic'},
+          {value:10,easing:'easeInOutCubic'},
+        ],
+        // translateY:[
+        //   {value:0,easing:'easeInOutCubic'},
+        //   {value:-10,easing:'easeInOutCubic'},
+        //   {value:0,easing:'easeInOutCubic'},
+        // ],
+        rotate:[
+          {value:-10,easing:'easeInOutCubic'},
+          {value:10,easing:'easeInOutCubic'},
+        ],
+        duration:2000,
+        // direction:'alternate',
+        // loop:true,
+        // endDelay:200
+      })
     document.querySelector('#wa')?.addEventListener('click',()=>{
       envelopAnim.play();
     })
@@ -33,7 +33,7 @@
 <div class="md:grid grid-cols-2 grid-rows-1 gap-4 content-center">
   <div class="imgContainer">
     <img
-      src="src/assets/illustrations/svg/custom/custom_envelope.svg"
+      src="/illustrations/svg/custom/custom_envelope.svg"
       alt="mail"
       class="envelope"
     />

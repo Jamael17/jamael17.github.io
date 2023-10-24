@@ -77,32 +77,32 @@
   <div class="line server-to-database-2" />
   <div class="line server-to-database-3" />
   <img
-    src="/src/assets/illustrations/svg/desktop-computer-svgrepo-com.svg"
+    src="/illustrations/svg/desktop-computer-svgrepo-com.svg"
     width="80"
     alt="server"
     class="pc"
   />
   <img
-    src="/src/assets/illustrations/png/load-balancer-icon-18.png"
+    src="/illustrations/png/load-balancer-icon-18.png"
     width="80"
     alt="loadbalancer"
     class="loadbalancer"
   />
   <div class="flex flex-col">
     <img
-      src="/src/assets/illustrations/svg/server.svg"
+      src="/illustrations/svg/server.svg"
       alt="server"
       width="80"
       class="server mt-4"
     />
     <img
-      src="/src/assets/illustrations/svg/server.svg"
+      src="/illustrations/svg/server.svg"
       alt="server"
       width="80"
       class="server mt-4"
     />
     <img
-      src="/src/assets/illustrations/svg/server.svg"
+      src="/illustrations/svg/server.svg"
       alt="server"
       width="80"
       class="server mt-4"
@@ -110,13 +110,13 @@
   </div>
   <div class="flex flex-col">
     <img
-      src="/src/assets/illustrations/png/4996138.png"
+      src="/illustrations/png/4996138.png"
       alt="database"
       width="80"
       class="server"
     />
     <img
-      src="/src/assets/illustrations/png/4996138.png"
+      src="/illustrations/png/4996138.png"
       alt="database"
       width="80"
       class="server"
