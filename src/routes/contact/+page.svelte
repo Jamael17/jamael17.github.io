@@ -75,7 +75,7 @@
       width: 15vw
 
     }
-    @media (max-width:500px) {
+    @media (max-width:767px) {
       img{
         width: 100px;
         margin-bottom: 2rem;

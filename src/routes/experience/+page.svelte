@@ -124,7 +124,7 @@
       </div>
     </article>
   </div>
-  <div class="sm:hidden illustrationContainer">
+  <div class="md:block sm:hidden illustrationContainer">
     {#if currentImgIndex == 2}
       <SystemDesignAnim />
     {:else if currentImgIndex == 1}

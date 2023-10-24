@@ -131,8 +131,8 @@
 
 <style lang="scss" scoped>
   .navigator {
-    width: 10vw;
-    @media (max-width:500px) {
+    width: 20vw;
+    @media (max-width:767px) {
       width: 100%;
     }
     .navLink {
@@ -186,13 +186,13 @@
         left: 1.5rem;
         font-size: 1.5rem;
         display: none;
-        @media (max-width: 500px) {
+        @media (max-width: 767px) {
           display: block;
           top: 40px;
           left: -30px;
         }
       }
-      @media (max-width: 500px) {
+      @media (max-width: 767px) {
           // display: flex;
           // justify-content: center;
           // align-items: center;
@@ -216,7 +216,7 @@
       justify-content: center;
       align-items: center;
     }
-    @media (max-width:500px) {
+    @media (max-width:767px) {
       span{
         display: block;
       }
@@ -232,14 +232,14 @@
       
     }
     &:hover{
-      @media (max-width:500px) {
+      @media (max-width:767px) {
         outline: 1px solid #2b2b2b60;
         border-radius: 20px;
       }
     }
     &:not(:last-child) {
         margin-bottom: 20px;
-        @media (max-width: 500px) {
+        @media (max-width: 767px) {
           margin-bottom: 0px;
         }
       }
@@ -256,10 +256,10 @@
   }
   .navigator-left {
     position: fixed;
-    @media (min-width: 500px) {
+    @media (min-width: 767px) {
       top: Calc(50% - 50px);
     }
-    @media (max-width: 500px) {
+    @media (max-width: 767px) {
       bottom: 0;
       left: 50%;
       transform: translateX(-50%);
@@ -275,7 +275,7 @@
           display: flex;
         }
       }
-      @media (max-width:500px) {
+      @media (max-width:767px) {
         border: none;
         left: 0px;
       }

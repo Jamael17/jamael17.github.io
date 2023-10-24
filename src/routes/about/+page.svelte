@@ -185,9 +185,10 @@ https://tailwindcss.com/https://laravel.com//favicons/favicon-32x32.png?v=3
     </article>
   </section>
   <h1 class="text-6xl mb-3 mt-3">Technologies and Tools</h1>
-  <h4 class="font-railway text-2xl mb-3">Most of the tools Im familiar with.</h4>
+  <h4 class="font-railway text-2xl mb-3">Most of the tools I'm familiar with.</h4>
   <section class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-2">
     {#each skills as { title, imgPath, tools }}
+    <div class="skillsContainer flex justify-center">
       <Card size="xl" reverse={false} horizontal={true} padding="none">
         <div class="grid xs:grid-cols-1 sm:grid-cols-2 gap-0 p-2">
           <div class="flex justify-center align-center">
@@ -214,28 +215,12 @@ https://tailwindcss.com/https://laravel.com//favicons/favicon-32x32.png?v=3
           </div>
         </div>
       </Card>
+    </div>
     {/each}
   </section>
 </div>
 
 <style lang="scss" scoped>
-  // .aboutme{
-  //   height: 100vh;
-  //   // position: relative;
-  //   &::before{
-  //     content: '';
-  //     position: fixed;
-  //     top: 0;
-  //     left: 0;
-  //     right: 0;
-  //     bottom: 0;
-  //     background-image: radial-gradient(#172a3a 0, #045155 100%);
-  //     // background-size: 400% 400%;
-  //     background-position: -200%;
-  //     z-index: -1;
-  //     animation: bg-anim 5s ease infinite;
-  //   }
-  // }
   @keyframes bg-anim{
     0% {
       background-size: 200%;

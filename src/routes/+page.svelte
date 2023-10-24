@@ -26,8 +26,8 @@
     // overflow: hidden;
     .background{
       position: relative;
-      width: 500px;
-      height: 500px;
+      width: 767px;
+      height: 767px;
       // background: blue;
       position: fixed;
       top: 50%;
