@@ -9,6 +9,7 @@
   } from "flowbite-svelte-icons";
   import { page } from "$app/stores";
   import anime from "animejs";
+  import { base } from "$app/paths";
   let links = [
     { text: "Home", url: "/", Icon: HomeSolid },
     { text: "About", url: "/about", Icon: FaceLaughSolid },
@@ -117,7 +118,7 @@
     >
       {#each links as { url, text, Icon }, i}
       <div class="navLinkContainerLeft">
-        <a id={text} href={url} data-delay={i} class="navLink">
+        <a id={text} href={base+url} data-delay={i} class="navLink">
           <div class="navIcon dark:md:text-white hover:text-black">
             <Icon />
           </div>
