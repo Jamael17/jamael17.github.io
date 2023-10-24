@@ -11,7 +11,7 @@
   <div class="glare"></div>
   <main class="p-8 ml-4 mr-4">
     {#key data.url}
-    <div transition:fly={{ x: -200 }}>
+    <div in:fade={{ duration: 300, delay: 300}} out:fade={{ duration: 300 }}>
       <slot />
     </div>
     {/key}
