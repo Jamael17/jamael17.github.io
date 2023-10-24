@@ -2,32 +2,32 @@
   import { Label, Input, Textarea, Button } from "flowbite-svelte";
   import anime from "animejs";
   import { onMount } from "svelte";
-  let sendButton:HTMLButtonElement;
-  onMount(()=>{
+  let sendButton: HTMLButtonElement;
+  onMount(() => {
     const envelopAnim = anime({
-        targets:'.envelope',
-        translateX:[
-          {value:-10,easing:'easeInOutCubic'},
-          {value:10,easing:'easeInOutCubic'},
-        ],
-        // translateY:[
-        //   {value:0,easing:'easeInOutCubic'},
-        //   {value:-10,easing:'easeInOutCubic'},
-        //   {value:0,easing:'easeInOutCubic'},
-        // ],
-        rotate:[
-          {value:-10,easing:'easeInOutCubic'},
-          {value:10,easing:'easeInOutCubic'},
-        ],
-        duration:2000,
-        // direction:'alternate',
-        // loop:true,
-        // endDelay:200
-      })
-    document.querySelector('#wa')?.addEventListener('click',()=>{
+      targets: ".envelope",
+      translateX: [
+        { value: -10, easing: "easeInOutCubic" },
+        { value: 10, easing: "easeInOutCubic" },
+      ],
+      // translateY:[
+      //   {value:0,easing:'easeInOutCubic'},
+      //   {value:-10,easing:'easeInOutCubic'},
+      //   {value:0,easing:'easeInOutCubic'},
+      // ],
+      rotate: [
+        { value: -10, easing: "easeInOutCubic" },
+        { value: 10, easing: "easeInOutCubic" },
+      ],
+      duration: 2000,
+      // direction:'alternate',
+      // loop:true,
+      // endDelay:200
+    });
+    document.querySelector("#wa")?.addEventListener("click", () => {
       envelopAnim.play();
-    })
-  })
+    });
+  });
 </script>
 
 <div class="md:grid grid-cols-2 grid-rows-1 gap-4 content-center">
@@ -61,22 +61,29 @@
       <Textarea name="contactComment" id="contactComment" cols="30" rows="10" />
     </div>
     <div class="mb-12">
-      <Button id="wa">Send</Button>
+      <button
+        class="bg-primary-500 text-white font-bold py-2 px-4 rounded"
+        disabled>Send</button
+      >
+      <br />
+      <small class="dark:text-white"
+        >Email services not working, soon tho :/ <br />You can send an email to
+        <a href="mailto:contactcurvelo@gmail.com" class="text-primary-700">contactcurvelo@gmail.com</a>
+        </small>
     </div>
   </form>
 </div>
 
 <style lang="scss" scoped>
-  .imgContainer{
+  .imgContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    img{
-      width: 15vw
-
+    img {
+      width: 15vw;
     }
-    @media (max-width:767px) {
-      img{
+    @media (max-width: 767px) {
+      img {
         width: 100px;
         margin-bottom: 2rem;
       }
