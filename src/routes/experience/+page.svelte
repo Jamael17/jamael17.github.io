@@ -159,21 +159,6 @@
       }
     }
   }
-  .img-parallax {
-    width: 612px;
-    height: 480px;
-    overflow: hidden;
-    .para {
-      border-style: solid;
-      border-width: 5px;
-      border-radius: 3px;
-      border-color: #c7c7c7bb;
-      img {
-        width: 100%;
-        height: 100%;
-      }
-    }
-  }
   article {
     // height: 100vh;
     position: relative;
